@@ -52,7 +52,7 @@
 
 
       <div class="jumbotron">
-      	<h1><a href="https://smartcash.cc/announcing-smartcash-1-2-8-mandatory-update-for-smartnode-operators/" target="_blank">SmartNodes Update v1.2.8</a> Please note previous collateral requirement of 10,000 SMART has been increased to 100,000 SMART</h1>
+      	<h1><a href="https://smartcash.cc/announcing-smartcash-1-2-8-mandatory-update-for-smartnode-operators/" target="_blank">SmartNodes Update v1.2.8</a> Please note previous collateral requirement of 100,000 SMART has been increased to 100,000 SMART</h1>
       </div>
 
       <div class="alert alert-info" role="alert">
@@ -389,18 +389,18 @@
 				<h3>How are the SmartNode reward payment intervals calculated?</h3>
 				<p>To calculate the average days between payment intervals (after the first payment), we can use this formula:</p>
 				<p><strong>SmartNode Payment Interval in days = (Total Global Enabled SmartNodes) / 1571</strong></p>
-				<p>This represents the average days between payments. Payments vary widely based on the random selection parameters. Some payments can be 11 days and some 1 day. You should not expect a payment before 5 days from starting a node with a new 10,000 SmartCash transaction.</p>
+				<p>This represents the average days between payments. Payments vary widely based on the random selection parameters. Some payments can be 11 days and some 1 day. You should not expect a payment before 5 days from starting a node with a new 100,000 SmartCash transaction.</p>
 				<p>At 8000 total enabled nodes a payment interval would be about 5 days with a range of 1-11 days.</p>
 				<h3>How to ensure my SmartNode is eligible for reward payments?</h3>
 				<p>
 					<ul>
 					<li>SmartNodes must have a <strong>unique SmartCash address</strong> per 100k collateral transaction.</li>
 					<li>SmartNodes must have a <strong>unique static IPV4 address</strong> per smartnode the IP address needs to be the same as what is used in the smartnode.conf file.</li>
-					<li>SmartNodes must <strong>run 24/7 and not stop for longer than 1 hour</strong> or they drop off the payment queue. Any transaction that <strong>sends from the specific 10,000 SMART</strong> collateral transaction will drop the node off from the payment queue.</li>
-					<li>SmartNodes also qualify for SmartRewards. SmartRewards are paid on the 25th of each month as long as there has been over 1000 in an address and no transaction sent from that address from the previous 25th. Sending a smartnode payment from your wallet will disqualify rewards even if you don’t send from the 10,000 SMART collateral transaction.</li>
+					<li>SmartNodes must <strong>run 24/7 and not stop for longer than 1 hour</strong> or they drop off the payment queue. Any transaction that <strong>sends from the specific 100,000 SMART</strong> collateral transaction will drop the node off from the payment queue.</li>
+					<li>SmartNodes also qualify for SmartRewards. SmartRewards are paid on the 25th of each month as long as there has been over 1000 in an address and no transaction sent from that address from the previous 25th. Sending a smartnode payment from your wallet will disqualify rewards even if you don’t send from the 100,000 SMART collateral transaction.</li>
 					</ul>
-				<strong>Note:</strong> There is a <u>delay for first payment</u> after the initial 10,000 smart collateral transaction. This delay is calculated by <strong>(2.6 minutes) * (number of enabled nodes)</strong>. After the first payment, the rewards are calculated as stated above.
-				Example: If I make my 10,000 smart collateral transactions to a new address for a fresh node with the current 8000 node count, it will take up to 14 days for the first reward. (Thanks to <a href="https://steemit.com/smartcash/@allemeister/smartnode-rewards-explained">allemeister</a> for pointing this out.)
+				<strong>Note:</strong> There is a <u>delay for first payment</u> after the initial 100,000 smart collateral transaction. This delay is calculated by <strong>(2.6 minutes) * (number of enabled nodes)</strong>. After the first payment, the rewards are calculated as stated above.
+				Example: If I make my 100,000 smart collateral transactions to a new address for a fresh node with the current 8000 node count, it will take up to 14 days for the first reward. (Thanks to <a href="https://steemit.com/smartcash/@allemeister/smartnode-rewards-explained">allemeister</a> for pointing this out.)
 				</p>
 				<h3>Node status error "Not capable smartnode: Smartnode not in smartnode list"</h3>
 				<p>You most likely haven't applied the steps described in Section 9 of the <a href="#SmartNode_Setup_Guide">Setup Guide</a> correctly. The final steps after setting up the VPS are that you move to your desktop computer once again, edit the smartnode.conf there and finally start the node from your software wallet (SmartNodes tab).</p>
