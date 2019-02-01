@@ -304,10 +304,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .h_iframe iframe {
     width:100%;
-    height:100%;
 }
 
 .h_iframe {
-    height: 100%;
     width:100%;
 }
