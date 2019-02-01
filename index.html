@@ -4,32 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="SmartNodes">
 	<meta name="robots" content="index,follow">
 	<meta name="keywords" content="SmartNodes, SmartNode, SmartCash, masternode, node, $SMART, SMART, InstantPay, Bitcoin, coins, coin, crypocurrency, crypto, privacy, blockchain, distributed ledger, decentralized">
     <link rel="icon" href="favicon.ico">
-
     <title>SmartNodes.cc | SmartCash SmartNode Resources</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/smartnodes-narrow.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>  
   </head>
 
   <body>
@@ -52,7 +35,7 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#SmartNode_Setup">SmartNode Setup</a></li>
-              <li><a href="https://smartcash.cc/smartnodes/#toggle-id-1">SmartNode Calculator</a></li>
+              <li><a href="#SmartNode_Calculator">SmartNode Calculator</a></li>
                 <li><a href="https://t.me/SmartNodeMonitorBot">SmartNode Monitor</a></li>
               <li><a href="#SmartNode_FAQ">SmartNode FAQ</a></li>
 
@@ -61,43 +44,32 @@
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">External Resources</li>
                     <li><a href="https://smartcash.cc/smartnodes/">What are SmartCash SmartNodes?</a></li>
-                  <li><a href="https://smartstats.cc/smartnodes">SmartNodes Block Reward Calculator</a></li>
                     <li><a href="https://smartcash.cc/smartnodes/#smarthosting">SmartNodes Hosting Services</a></li>
-<!--
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
--->
                 </ul>
               </li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
       </nav>
 
 
       <div class="jumbotron">
-          <!--
-		<a href="https://smartcash.cc/wallets/" alt="SmartNodes are here!" title="SmartNodes are here!"><img src="img/SmartNodes-Over-10000.jpg" class="img-responsive" alt="SmartNodes are here!"></a>
-        <h1><a href="https://smartcash.cc/wallets/">SmartNodes are here!</a></h1>
-<!--
-        <h2><div id="countdown"></div></h2>
--->
-          <h1><a href="https://smartcash.cc/smartcash-v1-2-4-release/" target="_blank">SmartNodes Update v1.2.4</a> Please note v1.1 nodes are no longer eligible for block rewards.</h1>
+      	<h1><a href="https://smartcash.cc/announcing-smartcash-1-2-8-mandatory-update-for-smartnode-operators/" target="_blank">SmartNodes Update v1.2.8</a> Please note previous collateral requirement of 100,000 SMART has been increased to 100,000 SMART</h1>
       </div>
 
+      <div class="alert alert-info" role="alert">
+	Need help? For immediate, real-time assistance with SmartNodes, join us on <a href="http://discord.smartcash.cc">Discord</a> in the 🧠-smartnodes channel under "SmartCash Support" 
+      </div>
+	    
       <div class="alert alert-warning" role="alert">
         <strong>PLEASE BE AWARE OF SCAMMERS:</strong> <u>In order to run a SmartNode you don't have to send your SMART to anybody!</u> You can manage your node, while you keep your funds safe in your local wallet, this also applies to Masternode Hosting services. At the moment, we advise against using services that offer ways of sharing SMART to run a SmartNode, as it is likely that scammers can use this ask for funds and not return them.
       </div>
 
       <div class="alert alert-danger" role="alert">
-        Please <a href="https://github.com/SmartCash/Core-Smart/releases">upgrade all your SmartNodes and Node Wallets (Desktop Wallets) to v1.2.3</a> by July 1st. This upgrade is mandatory, only updated nodes will be paid soon.  Read the <a href="https://smartcash.cc/smartcash-v1-2-release-announcement-and-instructions/" target="_blank">release announcement and upgrade instructions for SmartCash v1.2.3</a>.
+        Please <a href="https://github.com/SmartCash/Core-Smart/releases">upgrade all your SmartNodes and Node Wallets (Desktop Wallets) to v1.2.8</a> by February ????. This upgrade is mandatory, only updated nodes will be paid soon. Read the <a href="https://smartcash.cc/smartcash-v1-2-release-announcement-and-instructions/" target="_blank">release announcement and upgrade instructions for SmartCash v1.2.x</a>.
 
       </div>
 
       <div class="alert alert-success" role="alert" id="SmartNode_Latest">
-				<p>
+	<p>
         <a href="https://smartcash.blockchainlibrary.org/2018/01/guide-to-creating-a-smartcash-smartnode-vps-in-10-minutes-with-vultr/">Guide to Creating a SmartCash SmartNode VPS in 10 Minutes with Vultr</a> has been updated for v1.2.4.<br /> 
         <a href="https://smartcash.cc/wp-content/uploads/2018/07/All-in-One-SmartNode-v1.2.4-2.pdf">All in One SmartNode Guide thanks to Azuuri</a><br /> 
         <a href="https://smartcash.cc/wp-content/uploads/2018/08/All-in-One-SmartNode-Deutsch-v1.2.4.pdf">(German) All in One SmartNode Guide thanks to Azuuri</a> <br /> 
@@ -136,7 +108,7 @@
 				<h3 id="SmartNode_Bash_Scripts">SmartNode Bash Scripts</h3>
 				<p>
 					<ul>
-					<li><a href="https://github.com/SmartCash/smartnode">Bash installer for SmartNodes on Ubuntu</a> (Thanks to <a href="https://forum.smartcash.cc/u/msg768">msg768</a>)</li>
+					<li><a href="https://github.com/SmartCash/smartnode">Bash installer for SmartNodes on Ubuntu</a></li>
 					<li><span class="label label-warning">Advanced</span> <a href="https://smartcash.blockchainlibrary.org/2018/03/protecting-your-smartcash-smartnode-port-with-anti-ddos-firewall-rules/">Protecting your SmartCash SmartNode Port with Anti-DDOS Firewall Rules</a> (Thanks to <strong><a href="https://forum.smartcash.cc/u/blockchainlibrary">Blockchain Library</a></strong>)</li>
 					</ul>
 				</p>
@@ -190,7 +162,7 @@
 					<li>Connect to your VPS with root credentials and create a directory for the cronjob scripts:
 						<p><code>mkdir smartnode</code></p>
 						<p><code>cd ~/smartnode/</code></p></li>
-					<li>Download the appropriate scripts (taken from the <a href="https://github.com/SmartCash/smartnode">SmartNode Bash installer</a> by <a href="https://forum.smartcash.cc/u/msg768">msg768</a>):</p>
+					<li>Download the appropriate scripts (taken from the <a href="https://github.com/SmartCash/smartnode">SmartNode Bash installer</a>:</p>
 						<p><code>wget https://raw.githubusercontent.com/SmartCash/smartnode/master/makerun.sh</code></p>
 						<p><code>wget https://raw.githubusercontent.com/SmartCash/smartnode/master/checkdaemon.sh</code></p></li>
 					<li>Give execute permission to the cron scripts:</p>
@@ -211,7 +183,7 @@
 					<li>Connect to your VPS with root credentials and create a directory for the cronjob script (if it not already exists):
 						<p><code>mkdir smartnode</code></p>
 						<p><code>cd ~/smartnode/</code></p></li>
-					<li>Download the appropriate script (taken from the <a href="https://github.com/SmartCash/smartnode">SmartNode Bash installer</a> by <a href="https://forum.smartcash.cc/u/msg768">msg768</a>):</p>
+					<li>Download the appropriate script (taken from the <a href="https://github.com/SmartCash/smartnode">SmartNode Bash installer</a>:</p>
 						<p><code>wget https://raw.githubusercontent.com/SmartCash/smartnode/master/clearlog.sh</code></p></li>
 					<li>Give execute permission to the cron script:</p>
 						<p><code>chmod 0700 ./clearlog.sh</code></p></li>
@@ -373,16 +345,14 @@
         </tr>
     </tbody>
 </table>
-				<p>
-				</p>
-			</div>
 
+			</div>
 			<div class="box">
 				<h2 id="SmartNode_FAQ">SmartNode FAQ</h2>
 				<h3>What are the requirements to run a SmartNode?</h3>
 				<p>
 					<ul>
-					<li>10,000 SMART</li>
+					<li>100,000 SMART</li>
 					<li>A computer for running a local wallet to start nodes and hold funds</li>
 					<li>A VPS server for remote node running 24hrs/day with the following specs:</li>
 						<ul>
@@ -392,15 +362,12 @@
 						</ul>
 					</ul>
 				</p>
-				<h3>How can I speed up the blockchain syncing for my SmartNode?</h3>
-				<p>Please refer to the <a href="#SmartNode_bootstrap_download">bootstrap download</a> below.</p>
-				<p>If you are working with the SmartNode Setup Guide, you should apply the bootstrap within Section 8 after creating the smartcash.conf and <u>before running smartcashd</u>, type:
-				<p><code>wget https://smartcash.cc/txindexstrap.zip</code></p>
-				<p><code>unzip txindexstrap.zip</code></p>
-				<p><code>mv blocks ~/.smartcash</code></p>
-				<p><code>mv chainstate ~/.smartcash</code></p>
-				<p><code>rm txindexstrap.zip</code></p>
-				</code>
+				<h3 id="SmartNode_Calculator">What is the ROI for SmartNodes?</h3>
+				<p>
+				<div class="h_iframe">
+                                    <iframe src="https://smartrewards.cc/node_calculator.html" height=760 frameborder="0" allowfullscreen></iframe>
+				</div>
+				</p>
 				<h3>Is there a install script for SmartNodes?</h3>
 				<p>Yes, there is a <a href="https://github.com/SmartCash/smartnode">bash installer for SmartNodes on Ubuntu</a>. It comes with cronjobs to make sure that your node is always running and up-to-date as well as secure against DDoS attacks.</p>
 				<p>Please not that this installer is only suitable for a dedicated VPS. The anti-DDoS script in this installer will disable all ports including the HTTP, HTTPS and DNS ports. It will only leave the SmartNode port open as well as a custom port for SSH.</p>
@@ -414,7 +381,7 @@
 				<p>SmartNode rewards were activated at block height 300,000 on Jan 31, 2018 5:25:00 AM UTC.</p>
 				<h3 id="SmartNode_Payment_Determination">How are SmartNode reward payments determined?</h3>
 				<p>SmartNode payments in SmartCash wallet version 1.1.0 are determined using a decentralised deterministic queue with probability driven selection.</p>
-                <p>SmartCash version 1.2.2 and later change the payment system to be faster.</p>
+                <p>SmartCash version 1.2.x and later change the payment system to be faster.</p>
                 <p>"SmartNodes will now get paid more frequently. Starting with Block 545005, SmartNodes will be paid at a rate of 10 nodes every even block. SmartNode payments will be fully validated and agreed on by the network, and properly removed from the payment queue upon payment. The share of block rewards paid to nodes will not change, and each node payment will be approximately 2% of the block reward based on the faster payment cycle."</p>
 				<p>Every SmartNode appears in the global list. Their position in this list is determined by the time from the last payment. New SmartNodes and SmartNodes that received a payment are placed at the end of the list. It is recommended to only use the command ‘start-missing' to start SmartNodes since it will only start nodes that need to be started. You can also use ‘start-alias’ and specify the specific node you want to start. The start-all command will reset the payment queue on any active nodes.</p>
 				<p>As SmartNodes are moved to the end of the global list, the remaining SmartNodes slowly migrate towards the top of the list. Once a SmartNode reaches the top 10% of the global list, it is eligible for selection from the selection pool. <i>As an example, if there are 8000 active SmartNodes, the top 800 SmartNodes in the global list are eligible for selection.</i></p>
@@ -422,18 +389,18 @@
 				<h3>How are the SmartNode reward payment intervals calculated?</h3>
 				<p>To calculate the average days between payment intervals (after the first payment), we can use this formula:</p>
 				<p><strong>SmartNode Payment Interval in days = (Total Global Enabled SmartNodes) / 1571</strong></p>
-				<p>This represents the average days between payments. Payments vary widely based on the random selection parameters. Some payments can be 11 days and some 1 day. You should not expect a payment before 5 days from starting a node with a new 10,000 SmartCash transaction.</p>
+				<p>This represents the average days between payments. Payments vary widely based on the random selection parameters. Some payments can be 11 days and some 1 day. You should not expect a payment before 5 days from starting a node with a new 100,000 SmartCash transaction.</p>
 				<p>At 8000 total enabled nodes a payment interval would be about 5 days with a range of 1-11 days.</p>
 				<h3>How to ensure my SmartNode is eligible for reward payments?</h3>
 				<p>
 					<ul>
-					<li>SmartNodes must have a <strong>unique SmartCash address</strong> per 10k collateral transaction.</li>
+					<li>SmartNodes must have a <strong>unique SmartCash address</strong> per 100k collateral transaction.</li>
 					<li>SmartNodes must have a <strong>unique static IPV4 address</strong> per smartnode the IP address needs to be the same as what is used in the smartnode.conf file.</li>
-					<li>SmartNodes must <strong>run 24/7 and not stop for longer than 1 hour</strong> or they drop off the payment queue. Any transaction that <strong>sends from the specific 10,000 SMART</strong> collateral transaction will drop the node off from the payment queue.</li>
-					<li>SmartNodes also qualify for SmartRewards. SmartRewards are paid on the 25th of each month as long as there has been over 1000 in an address and no transaction sent from that address from the previous 25th. Sending a smartnode payment from your wallet will disqualify rewards even if you don’t send from the 10,000 SMART collateral transaction.</li>
+					<li>SmartNodes must <strong>run 24/7 and not stop for longer than 1 hour</strong> or they drop off the payment queue. Any transaction that <strong>sends from the specific 100,000 SMART</strong> collateral transaction will drop the node off from the payment queue.</li>
+					<li>SmartNodes also qualify for SmartRewards. SmartRewards are paid on the 25th of each month as long as there has been over 1000 in an address and no transaction sent from that address from the previous 25th. Sending a smartnode payment from your wallet will disqualify rewards even if you don’t send from the 100,000 SMART collateral transaction.</li>
 					</ul>
-				<strong>Note:</strong> There is a <u>delay for first payment</u> after the initial 10,000 smart collateral transaction. This delay is calculated by <strong>(2.6 minutes) * (number of enabled nodes)</strong>. After the first payment, the rewards are calculated as stated above.
-				Example: If I make my 10,000 smart collateral transactions to a new address for a fresh node with the current 8000 node count, it will take up to 14 days for the first reward. (Thanks to <a href="https://steemit.com/smartcash/@allemeister/smartnode-rewards-explained">allemeister</a> for pointing this out.)
+				<strong>Note:</strong> There is a <u>delay for first payment</u> after the initial 100,000 smart collateral transaction. This delay is calculated by <strong>(2.6 minutes) * (number of enabled nodes)</strong>. After the first payment, the rewards are calculated as stated above.
+				Example: If I make my 100,000 smart collateral transactions to a new address for a fresh node with the current 8000 node count, it will take up to 14 days for the first reward. (Thanks to <a href="https://steemit.com/smartcash/@allemeister/smartnode-rewards-explained">allemeister</a> for pointing this out.)
 				</p>
 				<h3>Node status error "Not capable smartnode: Smartnode not in smartnode list"</h3>
 				<p>You most likely haven't applied the steps described in Section 9 of the <a href="#SmartNode_Setup_Guide">Setup Guide</a> correctly. The final steps after setting up the VPS are that you move to your desktop computer once again, edit the smartnode.conf there and finally start the node from your software wallet (SmartNodes tab).</p>
@@ -442,45 +409,29 @@
 It can be solved by adding the following line to smartcash.conf on your VPS:
 <code>externalip=PUT_EXTERNAL_IP_OF_YOUR_NODE_HERE</code></p>
 				<h3>Where do I get further support regarding SmartNodes?</h3>
-				<p>Please visit <a href="http://discord.smartcash.cc/">#smartnodes on Discord</a>, you can also post to the dedicated category on <a href="https://forum.smartcash.cc/c/smartnodes">SmartCash Community Forums</a>, follow <a href="https://twitter.com/smartcashassist">SmartCash support on Twitter</a> or consult our <a href="https://smartcash.freshdesk.com">SmartCash support platform</a>.</p>
+				<p>Please visit us on <a href="http://discord.smartcash.cc">Discord</a> in the 🧠-smartnodes channel under "SmartCash Support", you can also post to the dedicated category on <a href="https://forum.smartcash.cc/c/smartnodes">SmartCash Community Forums</a>, follow <a href="https://twitter.com/smartcashassist">SmartCash support on Twitter</a> or consult our <a href="https://smartcash.freshdesk.com">SmartCash support platform</a>.</p>
 				<hr>
 				<p>Frequently asked questions and answers on SmartNodes compiled from Discord by <a href="https://forum.smartcash.cc/u/nflaw">nflaw</a>. (Last updated: <strong>2018-02-11</strong>)</p>
 			</div>
 <!--
       <div id="root"></div>
 -->
-      <div class="row">
-        <div class="col-md-6">
-			<div class="box">
-				<h3 id="SmartNode_bootstrap_download">SmartCash Blockchain Download</h3>
-				<p>To assist in speeding up the syncing of your SmartNode, you can download a bootstrap of the blockchain here. <strong>But make sure you set <code>txindex=1</code> in smartcash.conf first.</strong></p>
-				<p><table class="table">
-				<tbody>
-					<tr>
-						<td><a class="btn btn-default" href="https://smartcash.cc/txindexstrap.zip" role="button">Download &raquo;</a></td>
-						<td>zip</td>
-						<td><a href="https://smartcash.cc/txindexstrap.zip">https://smartcash.cc/txindexstrap.zip</a></td>
-					</tr>
-				</tbody>
-				</table></p>
-				<p>Bootstrap is updated on a regular basis.</p>
-				<p>This download is kindly provided by <strong><a href="https://smartcash.cc/">SmartCash</a></strong></p>
-			</div>
-        </div>
-        <div class="col-md-6">
-			<div class="box">
-				<h3>SmartCash Resources</h3>
-				<p><a href="https://smartcash.cc">SmartCash Website</a></p>
-				<p><a href="https://explorer3.smartcash.cc">SmartCash BlockExplorer</a></p>
-				<p><a href="https://forum.smartcash.cc">SmartCash Forum</a></p>
-				<p><a href="http://discord.smartcash.cc/">SmartCash on Discord</a></p>
-				<p><a href="https://www.reddit.com/r/smartcash">SmartCash on Reddit</a></p>
-				<p><a href="https://twitter.com/scashofficial">SmartCash on Twitter</a></p>
-				<p><a href="https://steemit.com/@smartcash">SmartCash on Steem</a></p>
-				<p><a href="https://t.me/SmartCashChat">SmartCash on Telegram</a></p>
-			</div>
-		</div>
-      </div>
+
+	<div class="box">
+		<h3>SmartCash Resources</h3>
+		<p></p>
+		<p><a href="https://smartcash.cc">SmartCash Website</a></p>
+		<p><a href="https://explorer.smartcash.cc">SmartCash Block Explorer</a></p>
+		<p><a href="https://forum.smartcash.cc">SmartCash Forum</a></p>
+		<p><a href="https://github.com/smartcash">SmartCash GitHub</a></p>
+		<p><a href="http://discord.smartcash.cc/">SmartCash on Discord</a></p>
+		<p><a href="https://t.me/SmartCashChat">SmartCash on Telegram</a></p>
+		<p><a href="https://www.reddit.com/r/smartcash">SmartCash on Reddit</a></p>
+		<p><a href="https://twitter.com/scashofficial">SmartCash on Twitter</a></p>
+		<p><a href="https://steemit.com/@smartcash">SmartCash on Steem</a></p>
+		<p><a href="https://smartstats.cc">SmartCash Stats</a></p>
+	</div>
+
 
       <hr>
 
@@ -490,10 +441,6 @@ It can be solved by adding the following line to smartcash.conf on your VPS:
       </footer>
 
     </div> <!-- /container -->
-
-<!--
-	<script src="js/countdown.js"></script>
--->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

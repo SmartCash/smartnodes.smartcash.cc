@@ -11,6 +11,16 @@ body {
   padding-bottom: 20px;
 }
 
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  background: #f4b517;
+  color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 a {
   color: #333;
   font-weight: bold;
@@ -290,4 +300,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
+}
+
+.h_iframe iframe {
+    width:100%;
+}
+
+.h_iframe {
+    width:100%;
 }
