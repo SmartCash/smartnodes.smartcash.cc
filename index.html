@@ -82,10 +82,8 @@
 				<h3 id="SmartNode_Setup_Guide">SmartNode Setup Guides</h3>
 				<p>
 					<ul>
-                    <li><span class="label label-primary">Latest</span> <a href="https://smartcash.blockchainlibrary.org/2018/01/guide-to-creating-a-smartcash-smartnode-vps-in-10-minutes-with-vultr/">10 Min Setup Guide for Vultr</a></li>
-                    <li><span class="label label-primary">Latest</span> <a href="https://smartcash.cc/wp-content/uploads/2018/07/All-in-One-SmartNode-v1.2.4-2.pdf">SmartNode All in One Setup Guide v1.0</a></li>
-                    <li><span class="label label-primary">Latest</span> <a href="https://smartcash.cc/wp-content/uploads/2018/08/All-in-One-SmartNode-Deutsch-v1.2.4.pdf">(German) SmartNode All in One Setup Guide v1.2.4</a></li>
-                    <li><span class="label label-success">Latest</span> <a href="https://smartnodes.cc/files/SmartCash_SmartNode_Script_Setup_Guide_v2.2.pdf">SmartNode Setup Guide v2.2</a> (Thanks to <a href="https://forum.smartcash.cc/t/smartcash-smartnode-setup-guide/2320">hoangton</a>)</li>
+                                        <li><span class="label label-primary">Latest</span> <a href="https://smartcash.blockchainlibrary.org/2018/01/guide-to-creating-a-smartcash-smartnode-vps-in-10-minutes-with-vultr/">10 Min Setup Guide for Vultr</a></li>
+                                        <li><span class="label label-primary">Latest</span> <a href="https://smartcash.cc/wp-content/uploads/2018/07/All-in-One-SmartNode-v1.2.4-2.pdf">SmartNode All in One Setup Guide v1.2.8</a></li>
 					</ul>
 					<ul>
 					<li><span class="label label-success">Latest</span> <a href="https://forum.smartcash.cc/t/smartcash-smartnode-setup-guide-v2-1-mac-version-quick-setup/3022">SmartNode Setup Guide v2.1 for Mac Users Quick Setup</a> (Thanks to <a href="https://forum.smartcash.cc/u/controllinghand">controllinghand</a>)</li>
@@ -127,9 +125,10 @@
 			<div class="box">
 				<h2 id="SmartNode_Hardening">Hardening your SmartNode</h2>
 				<p>
-				<strong>BE CAREFUL:</strong> Please do only apply changes illustrated below if you know what you are doing.<br />
-				Also <u>make sure you have done a backup/snapshot of your VPS first</u>, so that you are able to recover in case of an error.<br />
-				Most of the following changes are already covered by <a href="#SmartNode_Bash_Scripts">SmartNode Bash Scripts</a>.<br />
+				<strong>BE CAREFUL:</strong> Please do only apply changes illustrated below if you know what you are doing. Also <u>make sure you have done a backup/snapshot of your VPS first</u>, so that you are able to recover in case of an error.<br />
+				</p>
+				<p>
+				</i>Most of the following changes are already covered by <a href="#SmartNode_Bash_Scripts">SmartNode Bash Scripts</a>.</i><br />
 				The steps described in this section have been written to the advantage that they all can be applied separately.
 				</p>
 				<h3><span class="label label-warning">Security</span> Change your SSH port</h3>
@@ -200,10 +199,10 @@
 				</ol>
 				<h3><span class="label label-primary">Stability</span> Allocating a Swap File</h3>
 				<p>
-				This step is especially recommended to those who run a VPS with less than 2 GB RAM. It virtually enhances your RAM using a swap file.
+				This step is especially recommended to those who run a VPS with less than 2 GB RAM.
 				</p>
 				<ol>
-					<li>Make you sure you have about 4 GB additional space to spare on your VPS.</li>
+					<li>Make you sure you have at least 4 GB additional space to spare on your VPS.</li>
 					<li>Connect to your VPS with root credentials and run the following commands:
 						<p><code>fallocate -l 4G /swapfile</code></p>
 						<p><code>chmod 600 /swapfile</code></p>
